@@ -32,3 +32,33 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
 
     plusMinus(arr)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    """
+    def staircase(n):
+    a = 1
+    for i in range(1,n+1):
+        print(" "*(n-a)+"#"*a)
+        a+=1
+    """        
+    
+    """
+    def staircase(n):
+    for i in range(1, n+1):
+        l = i*'#'
+        print(l.rjust(n))
+    """        
+    
+    
+    
